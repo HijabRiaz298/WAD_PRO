@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bangles</title>
+     <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @keyframes slide {
+      0% { transform: translateX(-100%); }
+      100% { transform: translateX(100%); }
+    }
+    .animate-slide {
+      animation: slide 10s linear infinite;
+      will-change: transform;
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body class="bg-gray-50">
+
+  <!-- Top Free Shipping Bar -->
+<div id="top-bar" class="bg-pink-500 text-white font-semibold py-2 px-4 flex justify-center items-center fixed w-full top-0 z-50">
+  <span>Free shipping on orders above Rs 3500/-</span>
+  <button onclick="document.getElementById('top-bar').style.display='none'" class="ml-4 text-white font-bold hover:text-gray-200">×</button>
+</div>
+
+<!-- Top Free Shipping Bar -->
+<div id="top-bar" class="bg-pink-500 text-white font-semibold py-2 px-4 flex justify-center items-center fixed w-full top-0 z-50">
+  <span>Free shipping on orders above Rs 3500/-</span>
+  <button onclick="document.getElementById('top-bar').style.display='none'" class="ml-4 text-white font-bold hover:text-gray-200">×</button>
+</div>
+
+<!-- Pink Header -->
+<header class="bg-pink-400 p-4 overflow-hidden" style="margin-top:40px;">
+   <!-- Heading -->
+   <h2 class="text-6xl font-bold text-black text-center animate-[slide_12s_ease-in-out_infinite]">
+      Bangles Collection
+   </h2>
+
+   <style>
+      @keyframes slide {
+        0% { transform: translateX(-100%); opacity: 0; }
+        25% { transform: translateX(0); opacity: 1; }
+        50% { transform: translateX(100%); opacity: 0; }
+        75% { transform: translateX(0); opacity: 1; }
+        100% { transform: translateX(-100%); opacity: 0; }
+      }
+      .animate-\[slide_12s_ease-in-out_infinite\] {
+        animation: slide 12s ease-in-out infinite;
+      }
+   </style>
+
+   <!-- Marquee Area (3 lines only) -->
+   <div class="relative overflow-hidden mt-4" style="max-height: calc(1.4em * 3); line-height:1.4;">
+      <div class="inline-block pr-16 animate-slide">
+        Welcome to our latest jewelry collection! 
+      </div>
+   </div>
+</header>
+
+
+   <!-- Categories Navbar -->
+<nav class="bg-white text-black font-bold text-sm">
+  <ul class="flex flex-wrap justify-center gap-6 py-4">
+
+  <!-- New Arrival -->
+<li class="text-center">
+  <a href="index.html" class="block w-24 h-24 flex items-center justify-center rounded-full border-2 border-black 
+     hover:border-pink-400 hover:text-pink-400 transition-all duration-300">
+    New Arrival
+  </a>
+</li>
+
+  
+   <!-- Bridal -->
+<li class="text-center">
+  <a href="bridal.html" class="block w-24 h-24 flex items-center justify-center rounded-full border-2 border-black 
+     hover:border-pink-400 hover:text-pink-400 transition-all duration-300">
+    Bridal
+  </a>
+</li>
+
+
+
+
+    <!-- Rings -->
+<li class="text-center">
+  <a href="rings.html" class="block w-24 h-24 flex items-center justify-center rounded-full border-2 border-black 
+     hover:border-pink-400 hover:text-pink-400 transition-all duration-300">
+    Rings
+  </a>
+</li>
+
+
+   <!-- Bangles -->
+<li class="text-center">
+  <a href="bangles.html" class="block w-24 h-24 flex items-center justify-center rounded-full border-2 border-black 
+     hover:border-pink-400 hover:text-pink-400 transition-all duration-300">
+    Bangles
+  </a>
+</li>
+
+   <!-- Necklace -->
+<li class="text-center">
+  <a href="necklace.html" class="block w-24 h-24 flex items-center justify-center rounded-full border-2 border-black 
+     hover:border-pink-400 hover:text-pink-400 transition-all duration-300">
+    Necklace
+  </a>
+</li>
+</head>
+ </ul>
+</nav>
+    
+
+  <div class="flex justify-start py-4 pl-6">
+  <a href="index.html">
+    <img src="https://rawayat.com.pk/cdn/shop/files/rawayat-sng-logo_852e6ecd-adb3-411c-99f2-779d03c76c35.png?v=1680776103&width=300" 
+         alt="Rawayat Logo" 
+         class="h-16">
+  </a>
+</div>
+<div class="bg-gray-100 py-10 px-6">
+  <h2 class="text-3xl font-bold text-center mb-8 text-black">Jewellery Collection</h2>
+
+  <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6">
+  <!-- Jewellery 1 -->
+<div class="bg-white rounded-lg shadow-lg overflow-hidden">
+  <img src="https://rawayat.com.pk/cdn/shop/files/WhatsApp_Image_2025-03-07_at_11.09.12_PM_1570x.jpg?v=1741374711" 
+       alt="Jewellery Item 1" 
+       class="w-full h-64 object-cover rounded-lg shadow-md">
+  <div class="p-4 text-center">
+    <h3 class="text-lg font-semibold">Zircon maroon bangles</h3>
+    <p class="text-gray-600">PKR 5,500</p>
+    <button class="mt-2 px-4 py-2 bg-pink-500 text-white rounded hover:bg-pink-600">Add to Cart</button>
+  </div>
+</div>
+
+<!-- Jewellery 2 -->
+<div class="bg-white rounded-lg shadow-lg overflow-hidden">
+  <img src="https://rawayat.com.pk/cdn/shop/files/WhatsApp_Image_2025-06-27_at_9.56.09_PM_940x.jpg?v=1751114694" 
+       alt="Jewellery Item 2" 
+       class="w-full h-64 object-cover rounded-lg shadow-md">
+  <div class="p-4 text-center">
+    <h3 class="text-lg font-semibold">Elegant bangles</h3>
+    <p class="text-gray-600">PKR 4,200</p>
+    <button class="mt-2 px-4 py-2 bg-pink-500 text-white rounded hover:bg-pink-600">Add to Cart</button>
+  </div>
+</div>
+
+<!-- Jewellery 3 -->
+<div class="bg-white rounded-lg shadow-lg overflow-hidden">
+  <img src="https://rawayat.com.pk/cdn/shop/files/WhatsAppImage2025-05-10at14.13.18_53498985_1370x.jpg?v=1747070870" 
+       alt="Royal Pearl Bridal Set" 
+       class="w-full h-64 object-cover rounded-lg shadow-md">
+  <div class="p-4 text-center">
+    <h3 class="text-lg font-semibold">Full maroon Bangles</h3>
+    <p class="text-gray-600">PKR 6,000</p>
+    <button class="mt-2 px-4 py-2 bg-pink-500 text-white rounded hover:bg-pink-600">Add to Cart</button>
+  </div>
+</div>
+
+<!-- Jewellery 4 -->
+<div class="bg-white rounded-lg shadow-lg overflow-hidden">
+  <img src="https://rawayat.com.pk/cdn/shop/files/WhatsAppImage2025-07-18at8.24.42PM_940x.jpg?v=1754395651" 
+       alt="Meher Kundan Choker Set" 
+       class="w-full h-64 object-cover rounded-lg shadow-md">
+  <div class="p-4 text-center">
+    <h3 class="text-lg font-semibold">Meher Kundan Choker bangles</h3>
+    <p class="text-gray-600">PKR 3,800</p>
+    <button class="mt-2 px-4 py-2 bg-pink-500 text-white rounded hover:bg-pink-600">Add to Cart</button>
+  </div>
+</div>
+
+<!-- Jewellery 5 -->
+<div class="bg-white rounded-lg shadow-lg overflow-hidden">
+  <img src="https://rawayat.com.pk/cdn/shop/files/WhatsAppImage2025-05-26at16.45.07_b89bb3a6_1170x.jpg?v=1748284606"
+       alt="Ruby Gold Bridal Set"
+       class="w-full h-64 object-cover rounded-lg shadow-md">
+  <div class="p-4 text-center">
+    <h3 class="text-lg font-semibold">Ruby Gold Bridal bangles</h3>
+    <p class="text-gray-600">PKR 7,200</p>
+    <button class="mt-2 px-4 py-2 bg-pink-500 text-white rounded hover:bg-pink-600">Add to Cart</button>
+  </div>
+</div>
+
+<!-- Jewellery 6 -->
+<div class="bg-white rounded-lg shadow-lg overflow-hidden">
+  <img src="https://rawayat.com.pk/cdn/shop/files/Kara_Pair-19_Golden_1270x.jpg?v=1754992664"
+       alt="Golden Kara Earrings"
+       class="w-full h-64 object-cover rounded-lg shadow-md">
+  <div class="p-4 text-center">
+    <h3 class="text-lg font-semibold">Golden bangles</h3>
+    <p class="text-gray-600">PKR 14,000</p>
+    <button class="mt-2 px-4 py-2 bg-pink-500 text-white rounded hover:bg-pink-600">Add to Cart</button>
+  </div>
+</div>
+
+<!-- Jewellery 7 -->
+<div class="bg-white rounded-lg shadow-lg overflow-hidden">
+  <img src="https://rawayat.com.pk/cdn/shop/files/WhatsApp_Image_2025-06-21_at_9.54.16_AM_1370x.jpg?v=1751117664"
+       alt="Blush Gold Bridal Set"
+       class="w-full h-64 object-cover rounded-lg shadow-md">
+  <div class="p-4 text-center">
+    <h3 class="text-lg font-semibold">Blush Gold Bridal bangles</h3>
+    <p class="text-gray-600">PKR 13,500</p>
+    <button class="mt-2 px-4 py-2 bg-pink-500 text-white rounded hover:bg-pink-600">Add to Cart</button>
+  </div>
+</div>
+
+<!-- Jewellery 8 -->
+<div class="bg-white rounded-lg shadow-lg overflow-hidden">
+  <img src="https://rawayat.com.pk/cdn/shop/files/Kara_Pair-54_1370x.jpg?v=1754982147"
+       alt="Golden Kara Earrings Pair"
+       class="w-full h-64 object-cover rounded-lg shadow-md">
+  <div class="p-4 text-center">
+    <h3 class="text-lg font-semibold">Golden bangles with sky blue shade</h3>
+    <p class="text-gray-600">PKR 9,500</p>
+    <button class="mt-2 px-4 py-2 bg-pink-500 text-white rounded hover:bg-pink-600">Add to Cart</button>
+  </div>
+</div>
+
+<!-- Jewellery 9 -->
+<div class="bg-white rounded-lg shadow-lg overflow-hidden">
+  <img src="https://rawayat.com.pk/cdn/shop/files/CGKJ16426B-GRN_609802_1570x.jpg?v=1735906174"
+       alt="Emerald Gold Bridal Set"
+       class="w-full h-64 object-cover rounded-lg shadow-md">
+  <div class="p-4 text-center">
+    <h3 class="text-lg font-semibold">Emerald Gold Bbangles</h3>
+    <p class="text-gray-600">PKR 14,500</p>
+    <button class="mt-2 px-4 py-2 bg-pink-500 text-white rounded hover:bg-pink-600">Add to Cart</button>
+  </div>
+</div>
+
+<!-- Jewellery 10 -->
+<div class="bg-white rounded-lg shadow-lg overflow-hidden">
+  <img src="https://rawayat.com.pk/cdn/shop/files/1719845057_1370x.jpg?v=1735907649"
+       alt="Maroon Gold Bridal Set"
+       class="w-full h-64 object-cover rounded-lg shadow-md">
+  <div class="p-4 text-center">
+    <h3 class="text-lg font-semibold">Diamond bangles</h3>
+    <p class="text-gray-600">PKR 11,800</p>
+    <button class="mt-2 px-4 py-2 bg-pink-500 text-white rounded hover:bg-pink-600">Add to Cart</button>
+  </div>
+</div>
+
+  </div>
+  <!--link for designing icon-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+ <!-- Get In Touch Section (Bold Heading, Black Text) -->
+<div class="text-black">
+  <h3 class="font-bold text-lg">Get In Touch</h3>
+  <p class="mt-2"><strong>Address:</strong> 71-Zeenat Block Allama Iqbal Town Lahore</p>
+  <p class="mt-2"><strong>Email:</strong> 
+    <a href="mailto:rawayatjewellery@gmail.com" class="underline hover:text-gray-600">rawayatjewellery@gmail.com</a>
+  </p>
+  <p class="mt-2"><strong>Phone:</strong> 
+    <a href="tel:+923111444513" class="underline hover:text-gray-600">+92 311 1444513</a>
+  </p>
+</div>
+
+
+    <!-- Information Section (Bold Heading, Black Text) -->
+<div class="text-black">
+  <h3 class="font-bold text-lg">INFORMATION</h3>
+  <ul class="mt-2 space-y-2">
+    <li><a href="#" class="hover:underline">About Us</a></li>
+    <li><a href="#" class="hover:underline">Contact Us</a></li>
+    <li><a href="#" class="hover:underline">Terms & Conditions</a></li>
+    <li><a href="#" class="hover:underline">Exchange Policy</a></li>
+    <li><a href="#" class="hover:underline">Privacy Policy</a></li>
+    <li><a href="#" class="hover:underline">Shipping Policy</a></li>
+    <li><a href="#" class="hover:underline">Refund & Exchange</a></li>
+    <li><a href="#" class="hover:underline">FAQ's</a></li>
+  </ul>
+</div>
+
+    <!-- Newsletter -->
+    <div class="text-right">
+      <h3 class="font-semibold text-lg">NEWSLETTER SIGN UP</h3>
+      <p class="text-gray-600 mt-2">
+        Sign up for exclusive updates, new arrivals & insider only discounts
+      </p>
+      <form class="mt-4 flex flex-col sm:flex-row gap-3 sm:justify-end sm:items-center">
+        <input
+          type="email"
+          placeholder="Enter your email address"
+          class="w-full sm:w-auto p-3 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-gray-200"
+          required
+        />
+        <button
+          type="submit"
+          class="px-6 py-3 bg-black text-white font-semibold uppercase tracking-wide hover:bg-gray-800"
+        >
+          SUBMIT
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Social Media Icons at Bottom -->
+  <div class="max-w-7xl mx-auto px-6 py-6 border-t border-gray-100 flex justify-center gap-4">
+    <a href="https://wa.me/923111444513" target="_blank" class="w-10 h-10 flex items-center justify-center rounded-full bg-green-500 text-white hover:scale-110 transition">W</a>
+    <a href="https://facebook.com" target="_blank" class="w-10 h-10 flex items-center justify-center rounded-full bg-blue-600 text-white hover:scale-110 transition">F</a>
+    <a href="https://instagram.com" target="_blank" class="w-10 h-10 flex items-center justify-center rounded-full bg-pink-500 text-white hover:scale-110 transition">I</a>
+    <a href="https://twitter.com" target="_blank" class="w-10 h-10 flex items-center justify-center rounded-full bg-sky-500 text-white hover:scale-110 transition">T</a>
+    <a href="mailto:rawayatjewellery@gmail.com" target="_blank" class="w-10 h-10 flex items-center justify-center rounded-full bg-red-600 text-white hover:scale-110 transition">G</a>
+  </div>
+<div id="bridal" class="page hidden">
+ 
+
+     
+</body>
+</html>
